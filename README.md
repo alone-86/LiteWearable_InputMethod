@@ -2,7 +2,7 @@
 
 实现了一个在华为LiteWearable设备上的输入法页面，可以实现常用3500个汉字，英文数字和部分符号的输入。
 
-# 使用方法
+## 使用方法
 
 两个页面pinyin和pinyincandidate添加到LiteWearable项目的pages文件夹下，在使用输入法时带参数跳转到输入法页面，在输入法页面输入完成后，点击确定将会跳转回原页面，输入的文本在参数inputWords中保存
 
@@ -78,3 +78,8 @@ export default {
 }
 ```
 
+## 界面截图
+
+![img](G:%5CASUS%5CDocuments%5CTencentFlies%5C530825293%5CImage%5CC2C%5CImage3%5CFE2F7D2CBE4ABB13DDF8D6818C563605.jpg)
+![img](G:%5CASUS%5CDocuments%5CTencentFlies%5C530825293%5CImage%5CC2C%5CImage3%5C0319423235F8CBF484076BBB3442D635.jpg)
+![img](G:%5CASUS%5CDocuments%5CTencentFlies%5C530825293%5CImage%5CC2C%5CImage3%5CB0EE207643BEC9D7535154B3A407A010.jpg)
