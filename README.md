@@ -1,0 +1,2 @@
+# LiteWearable_InputMethod
+实现了一个在华为LiteWearable设备上的输入法页面，可以实现常用3500个汉字，英文数字和部分符号的输入。
