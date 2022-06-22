@@ -53,7 +53,7 @@ css文件：
 }
 ```
 
-
+js文件
 
 ```javascript
 //index.js
@@ -80,6 +80,8 @@ export default {
 
 ## 界面截图
 
-![img](G:%5CASUS%5CDocuments%5CTencentFlies%5C530825293%5CImage%5CC2C%5CImage3%5CFE2F7D2CBE4ABB13DDF8D6818C563605.jpg)
-![img](G:%5CASUS%5CDocuments%5CTencentFlies%5C530825293%5CImage%5CC2C%5CImage3%5C0319423235F8CBF484076BBB3442D635.jpg)
-![img](G:%5CASUS%5CDocuments%5CTencentFlies%5C530825293%5CImage%5CC2C%5CImage3%5CB0EE207643BEC9D7535154B3A407A010.jpg)
+![img](https://s2.loli.net/2022/06/22/afzReSIZJcH2Uhg.jpg)
+
+![img](https://s2.loli.net/2022/06/22/L1BgxKjcfpkNo7y.jpg)
+
+![img](https://s2.loli.net/2022/06/22/yPo27Ifxv1BFHVQ.jpg)
