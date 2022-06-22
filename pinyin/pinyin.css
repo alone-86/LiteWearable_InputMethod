@@ -1,0 +1,120 @@
+.container {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0px;
+    top: 0px;
+    width: 454px;
+    height: 454px;
+}
+
+
+.text-container {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0px;
+    top: 0px;
+    width: 320px;
+    height: 260px;
+}
+
+.text-content {
+    font-size: 30px;
+    text-align: left;
+    width: 322px;
+    height: 270px;
+}
+
+.candidate-word {
+    font-size: 30px;
+    text-align: center;
+    width: 100px;
+    height: 55px;
+    justify-content: center;
+}
+
+.candidate-word-button {
+    width: 55px;
+    height: 55px;
+    background-color: rgba(0, 0, 0, 0);/*    margin:0px 5px 0px 5px;*/
+    font-size: 38px;
+}
+
+.input-button {
+    width: 70px;
+    height: 50px;
+    background-color: #323232;
+    margin: 0px 5px 0px 5px;
+    font-size: 30px;
+}
+
+.func-button {
+    width: 90px;
+    height: 50px;
+    background-color: #323232;
+    margin: 0px 5px 0px 5px;
+    font-size: 30px;
+}
+
+.pinyin-button {
+    width: 150px;
+    height: 50px;
+    background-color: royalblue;
+    margin: 0px 5px 0px 5px;
+    font-size: 30px;
+}
+
+.container-row {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0px;
+    top: 0px;
+    width: 454px;
+    height: 65px;
+}
+
+.container-row-candidate {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0px;
+    top: 0px;
+    width: 310px;
+    height: 65px;
+}
+
+.container-col {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0px;
+    top: 0px;
+    width: 454px;
+    height: 454px;
+}
+
+.container-col-candidate {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0px;
+    top: 0px;
+    width: 454px;
+    height: 65px;
+}
+
+.container-swiper {
+    left: 0px;
+    top: 0px;
+    width: 454px;
+    height: 454px;
+}
+

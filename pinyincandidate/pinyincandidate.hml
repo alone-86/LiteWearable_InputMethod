@@ -1,0 +1,22 @@
+<div class="container">
+    <div class="container-col">
+        <text style="font-size : 30px;">{{ letters }}</text>
+        <div class="container-row-candidate">
+            <input type="button" value="{{ words[wordsPageIndex] }}" class="candidate-word-button"
+                   onclick="selectInput({{ words[wordsPageIndex] }})"></input>
+            <input type="button" value="{{ words[wordsPageIndex + 1] }}" class="candidate-word-button"
+                   onclick="selectInput({{ words[wordsPageIndex + 1] }})"></input>
+            <input type="button" value="{{ words[wordsPageIndex + 2] }}" class="candidate-word-button"
+                   onclick="selectInput({{ words[wordsPageIndex + 2] }})"></input>
+            <input type="button" value="{{ words[wordsPageIndex + 3] }}" class="candidate-word-button"
+                   onclick="selectInput({{ words[wordsPageIndex + 3] }})"></input>
+            <input type="button" value="{{ words[wordsPageIndex + 4] }}" class="candidate-word-button"
+                   onclick="selectInput({{ words[wordsPageIndex + 4] }})"></input>
+        </div>
+        <div class="container-row-candidate">
+            <input type="button" value="返回" class="func-button" onclick="backToPinyin"></input>
+            <input type="button" value="<" class="candidate-word-button" onclick="wordsPageBack"></input>
+            <input type="button" value=">" class="candidate-word-button" onclick="wordsPageForward"></input>
+        </div>
+    </div>
+</div>

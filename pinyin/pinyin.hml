@@ -1,0 +1,80 @@
+<div class="container">
+    <swiper class="container-swiper" index="{{ sindex }} " vertical="true" loop="false" onchange="changeSwiper">
+        <div class="container-col">
+            <div class="text-container">
+                <text>\n</text>
+                <text class="text-content">{{inputWords}}_</text>
+            </div>
+            <div class="container-row">
+                <input type="button" value="返回" class="func-button" onclick="cancelInput"></input>
+                <input type="button" value="确定" class="func-button" onclick="finishInput"></input>
+                <input type="button" value="退格" class="func-button" onclick="wordsBackspace"></input>
+            </div>
+            <text>上滑输入文字</text>
+        </div>
+        <div class="container-col">
+            <input type="button" value="{{ letters }}" class="pinyin-button" onclick="jumpToCandidate"></input>
+            <div class="container-row-candidate">
+                <text  style="font-size: 30px; text-align: left; width: 200px;">{{words}}</text>
+            </div>
+            <div class="container-row">
+                <input type="button" value="{{keyboardLetters[0]}}" class="input-button" onclick="input({{keyboardLetters[0]}})"></input>
+                <input type="button" value="{{keyboardLetters[1]}}" class="input-button" onclick="input({{keyboardLetters[1]}})"></input>
+                <input type="button" value="{{keyboardLetters[2]}}" class="input-button" onclick="input({{keyboardLetters[2]}})"></input>
+                <input type="button" value="{{keyboardLetters[3]}}" class="input-button" onclick="input({{keyboardLetters[3]}})"></input>
+                <input type="button" value="{{keyboardLetters[4]}}" class="input-button" onclick="input({{keyboardLetters[4]}})"></input>
+            </div>
+            <div class="container-row" >
+                <input type="button" value="{{keyboardLetters[10]}}" class="input-button" onclick="input({{keyboardLetters[10]}})"></input>
+                <input type="button" value="{{keyboardLetters[11]}}" class="input-button" onclick="input({{keyboardLetters[11]}})"></input>
+                <input type="button" value="{{keyboardLetters[12]}}" class="input-button" onclick="input({{keyboardLetters[12]}})"></input>
+                <input type="button" value="{{keyboardLetters[13]}}" class="input-button" onclick="input({{keyboardLetters[13]}})"></input>
+                <input type="button" value="{{keyboardLetters[14]}}" class="input-button" onclick="input({{keyboardLetters[14]}})"></input>
+            </div>
+            <div class="container-row">
+                <input type="button" value="{{keyboardLetters[19]}}" class="input-button" onclick="input({{keyboardLetters[19]}})"></input>
+                <input type="button" value="{{keyboardLetters[20]}}" class="input-button" onclick="input({{keyboardLetters[20]}})"></input>
+                <input type="button" value="{{keyboardLetters[21]}}" class="input-button" onclick="input({{keyboardLetters[21]}})"></input>
+                <input type="button" value="{{keyboardLetters[22]}}" class="input-button" onclick="input({{keyboardLetters[22]}})"></input>
+                <input type="button" value="←" class="input-button" onclick="backspace"></input>
+            </div>
+            <div class="container-row">
+                <input type="button" value="中" class="input-button" onclick="changeToCn"></input>
+                <input type="button" value="英" class="input-button" onclick="changeToEn"></input>
+                <input type="button" value="符" class="input-button" onclick="changeToSymbol"></input>
+            </div>
+        </div>
+        <div class="container-col">
+            <input type="button" value="{{ letters }}" class="pinyin-button" onclick="jumpToCandidate"></input>
+            <div class="container-row-candidate">
+                <text style="font-size: 30px; text-align: left;width: 200px;">{{words}}</text>
+            </div>
+            <div class="container-row">
+                <input type="button" value="{{keyboardLetters[5]}}" class="input-button" onclick="input({{keyboardLetters[5]}})"></input>
+                <input type="button" value="{{keyboardLetters[6]}}" class="input-button" onclick="input({{keyboardLetters[6]}})"></input>
+                <input type="button" value="{{keyboardLetters[7]}}" class="input-button" onclick="input({{keyboardLetters[7]}})"></input>
+                <input type="button" value="{{keyboardLetters[8]}}" class="input-button" onclick="input({{keyboardLetters[8]}})"></input>
+                <input type="button" value="{{keyboardLetters[9]}}" class="input-button" onclick="input({{keyboardLetters[9]}})"></input>
+            </div>
+            <div class="container-row">
+                <input type="button" value="{{keyboardLetters[14]}}" class="input-button" onclick="input({{keyboardLetters[14]}})"></input>
+                <input type="button" value="{{keyboardLetters[15]}}" class="input-button" onclick="input({{keyboardLetters[15]}})"></input>
+                <input type="button" value="{{keyboardLetters[16]}}" class="input-button" onclick="input({{keyboardLetters[16]}})"></input>
+                <input type="button" value="{{keyboardLetters[17]}}" class="input-button" onclick="input({{keyboardLetters[17]}})"></input>
+                <input type="button" value="{{keyboardLetters[18]}}" class="input-button" onclick="input({{keyboardLetters[18]}})"></input>
+            </div>
+            <div class="container-row">
+                <input type="button" value="{{keyboardLetters[22]}}" class="input-button" onclick="input({{keyboardLetters[22]}})"></input>
+                <input type="button" value="{{keyboardLetters[23]}}" class="input-button" onclick="input({{keyboardLetters[23]}})"></input>
+                <input type="button" value="{{keyboardLetters[24]}}" class="input-button" onclick="input({{keyboardLetters[24]}})"></input>
+                <input type="button" value="{{keyboardLetters[25]}}" class="input-button" onclick="input({{keyboardLetters[25]}})"></input>
+                <input type="button" value="←" class="input-button" onclick="backspace"></input>
+            </div>
+            <div class="container-row">
+                <input type="button" value="中" class="input-button" onclick="changeToCn"></input>
+                <input type="button" value="英" class="input-button" onclick="changeToEn"></input>
+                <input type="button" value="符" class="input-button" onclick="changeToSymbol"></input>
+            </div>
+        </div>
+    </swiper>
+</div>
